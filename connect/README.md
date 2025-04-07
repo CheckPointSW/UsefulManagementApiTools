@@ -34,10 +34,10 @@ Then choose "Security Management" as the service.
 ##Examples
 
 • Running the script on the Multi-Domain Server:
-`python connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu`
+`python3 connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu`
 
 • Running the script from remote:
-`python connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu --server 192.168.1.1 --api_key <your_api_key> --api_port 443`
+`python3 connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu --server 192.168.1.1 --api_key <your_api_key> --api_port 443`
 
 ## Development Environment
 
