@@ -1,6 +1,6 @@
 # connect_all_domains
 
-The following script connects all domains of a tenant's MDS to the cloud-services portal.
+The following script connects all domains of a Multi-Domain Server to the Infinity Portal.
 
 ## Instructions
 Clone the repository with this command:
@@ -34,10 +34,10 @@ Then choose "Security Management" as the service.
 ##Examples
 
 • Running the script on the Multi-Domain Server:
-`python connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu --debug_file api_calls.json`
+`python connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu`
 
 • Running the script from remote:
-`python connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu --server 192.168.1.1 --api_key <your_api_key> --api_port 8080`
+`python connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu --server 192.168.1.1 --api_key <your_api_key> --api_port 443`
 
 ## Development Environment
 
