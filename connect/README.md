@@ -17,29 +17,23 @@ Then choose "Security Management" as the service.
 
 ## Usage Syntax
 
-• --client_id: Required. The Client ID.
-
-• --access_key: Required. The Access Key.
-
-• --region: Required. The region. Choices are [ap, us, eu, uae, in].
-
-• --server: The server IP address or hostname, required when running from remote.
-
-• --api_key: The API Key, required when running from remote.
-
-• --api_port: The API Port, required if running from remote, and it isn't the default value (443).
-
-• --debug_file: API calls debug file name.
+* --client_id: Required. The Client ID.
+* --access_key: Required. The Access Key.
+* --region: Required. The region. Choices are [ap, us, eu, uae, in].
+* --server: The server IP address or hostname, required when running from remote.
+* --api_key: The API Key, required when running from remote.
+* --api_port: The API Port, required if running from remote, and it isn't the default value (443).
+* --debug_file: API calls debug file name.
 
 ##Examples
 
-• Running the script on the Multi-Domain Server:
+* Running the script on the Multi-Domain Server:
 
-`python3 connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu`
+    `python3 connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu`
 
-• Running the script from remote:
+* Running the script from remote:
 
-`python3 connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu --server 192.168.1.1 --api_key <your_api_key> --api_port 443`
+    `python3 connect_all_domains.py --client_id <tenant_client_id> --access_key <tenant_access_key> --region eu --server 192.168.1.1 --api_key <your_api_key> --api_port 443`
 
 ## Development Environment
 
